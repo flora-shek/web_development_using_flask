@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-    SECRET_KEY =  os.environ.get('SECRET_KEY') or "secret_string"
+    SECRET_KEY =  os.environ.get('SECRET_KEY') or b"\xd1\xa0{\xd4f'R'A\x02\xf0FM\xa2\xfb>"
     MONGODB_SETTINGS ={'db':'UTA_Enrollment',
                        'username':'florashek24',
                        'password':'5aujbLlxkX76pbxh',
