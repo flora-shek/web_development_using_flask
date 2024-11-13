@@ -35,13 +35,7 @@
                     <span class="error-message">{{ error }}</span>
                 {% endfor %}
             </p>
-            <p>
-                {{ form.first_name.label }}<br>
-                {{ form.first_name }}
-                {% for error in form.first_name.errors %}
-                    <span class="error-message">{{ error }}</span>
-                {% endfor %}
-            </p>
+           
             <p>
                 {{ form.last_name.label }}<br>
                 {{ form.last_name }}
